@@ -1,0 +1,20 @@
+{
+  "name": "kuzatuv_bot_yangi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "sqlite3": "^6.0.1",
+    "telegraf": "^4.16.3"
+  }
+}
